@@ -1,6 +1,6 @@
 const numbers = [1, 4, 5, 88, 33, 34, 45, 1020];
 function sortArray(){
-    let newArray = [];
+    const newArray = [];
     for(i = 0; i < numbers.length; i++){
         if(numbers[i] % 2 === 0){
             newArray.push(numbers[i]);
